@@ -9,7 +9,7 @@
 
 .none{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px none rgba(14, 165, 170, 0.473);
     border-radius: 20px;
     color: blue;
@@ -20,7 +20,7 @@
 
 .dotted{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px dotted rgb(43, 16, 219);
     border-radius: 20px;
     font-size: 20px;
@@ -31,7 +31,7 @@
 
 .dashed{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px dashed rgb(57, 33, 128);
     border-radius: 20px;
     font-size: 20px;
@@ -42,7 +42,7 @@
 
 .solid{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px solid rgb(99, 176, 101) ; 
     border-radius: 20px;
     font-size: 20px;
@@ -53,7 +53,7 @@
 
 .double{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px double rgb(8, 9, 107);
     border-radius: 20px;
     font-size: 20px;
@@ -64,7 +64,7 @@
 
 .groove{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px groove black;
     border-radius: 10px;
     font-size: 20px;
@@ -75,7 +75,7 @@
 
 .ridge{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px ridge rgb(49, 144, 179);
     border-radius: 20px;
     font-size: 20px;
@@ -86,7 +86,7 @@
 
 .inset{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px inset rgb(247, 8, 87);
     border-radius: 20px;
     font-size: 20px;
@@ -97,7 +97,7 @@
 
 .outset{
     height:65px;
-    width:1200px;
+    width:160px;
     border: 5px outset rgb(89, 66, 239);
     border-radius: 20px;
     font-size: 20px;
@@ -106,12 +106,3 @@
     color: rgb(250, 104, 7);
 }
 
-@media (max-width:600px){
-    .text{
-    background-color:rgb(255, 255, 255);
-    flex-wrap:wrap;
-    margin:5px;
-    padding:9px;
-    font-size:15px ;
-    display: flex;
-}
